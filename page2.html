@@ -15,12 +15,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
-
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
 	<title>Contact</title>
 
 
@@ -73,10 +67,10 @@
 						<h1 class="text-center hero-bloc-text tc-white-secondaire">
 							Parlons web design !
 						</h1>
-						<p class="text-center mg-lg tc-white-secondaire tight-width-whitespace">
+						<h2 class="text-center mg-lg tc-white-secondaire tight-width-whitespace">
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-						</p>
+						</h2>
 					</div>
 				</div>
 			</div>
@@ -93,28 +87,28 @@
 							<div class="form-group">
 								<label>
 									Nom
-									<input id="name" class="form-control" required />
+									<input id="name" class="form-control" aria-label="Entrez votre nom" required />
 								</label>
 
 							</div>
 							<div class="form-group">
 								<label>
 									Adresse email
-									<input id="email" class="form-control" type="email" required />
+									<input id="email" class="form-control" type="email" aria-label="Entrez votre Email" required />
 								</label>
 
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
-									<input class="form-control" type="email" required id="input_504" />
+									<input class="form-control" type="text" required id="input_504" aria-label="Indiquez comment vous nous avez connu" />
 								</label>
 
 							</div>
 							<div class="form-group">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									<textarea id="message" class="form-control" rows="4" cols="50" aria-label="Décrivez nous votre projet en détail" required></textarea>
 								</label>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit"
@@ -123,12 +117,12 @@
 							</button>
 						</form>
 					</div>
-					<div class="col-sm-6">
+					<aside class="col-sm-6">
 						<p>
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
 							au vendredi<br>
 						</p>
-					</div>
+					</aside>
 				</div>
 			</div>
 		</article>
@@ -151,7 +145,7 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html">
+									<a class="social" aria-label="Lien vers Twitter" href="https://twitter.com/home?lang=fr">
 										<div class="fa fa-twitter icon-md" id="twitter"><br>
 											<p class="liensociaux">	Twitter</p>
 										</div>
@@ -160,7 +154,7 @@
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html">
+									<a class="social" aria-label="Lien vers Facebook" href="https://www.facebook.com/">
 										<div class="fa fa-facebook icon-md" id="facebook"><br>
 										<p class="liensociaux">	Facebook</p>
 										</div>
@@ -169,7 +163,7 @@
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html">
+									<a class="social" aria-label="Lien vers Dribble" href="https://dribbble.com/">
 										<div class="fa fa-dribbble icon-md" id="dribble"><br>
 											<p class="liensociaux">	Dribble</p>
 										</div>
@@ -178,7 +172,7 @@
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html">
+									<a class="social" aria-label="Lien vers Instagram" href="https://www.instagram.com/?hl=fr">
 										<div class="fa fa-instagram icon-md" id="instagram"><br>
 											<p class="liensociaux">	Instagram</p>
 										</div>
