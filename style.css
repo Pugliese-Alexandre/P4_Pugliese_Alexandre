@@ -10,13 +10,71 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+/*Modification apporté*/
+
+.liensociaux {
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.text-color{
+    color: black;
+}
+
+.tc-white-secondaire {
+    color: #000000;
+}
+.citationMax {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.signatureMax {
+    font-size: 12px;
+}
+
+#textTransformation {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.textChangement {
+    font-weight: bold;
+    text-transform: uppercase;    
+    font-size: 15px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+#instagram {    
+    padding-top: 1rem;  
+    color: #000000;}
+#facebook {    
+    padding-top: 1rem;
+    color: #000000;}
+#dribble {    
+    padding-top: 1rem;
+    color: #000000;}
+#twitter {    
+    padding-top: 1rem;
+    color: #000000;}
+    
+#textworking {
+    font-size: 2rem;
+}
+
+.p-top {
+    padding-top: 4rem;
+}
+/*Modification apporté*/
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -460,10 +518,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -516,7 +570,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -651,7 +704,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -700,8 +753,9 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 600px;
     margin: auto auto auto auto;
+    padding-bottom: 4rem;
 }
 
 h2 {
@@ -723,11 +777,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .icons {
@@ -736,11 +790,12 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 400px;
 }
 
 .portfolio-row {
@@ -771,25 +826,25 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F48D5D;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F48D5D!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #F48D5D;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #F48D5D!important;
+    color: #000000!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white:hover {
@@ -819,10 +874,11 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-color: #000000;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -848,13 +904,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +928,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +937,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
